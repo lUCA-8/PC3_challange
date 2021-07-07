@@ -17,6 +17,7 @@
 
 .left_contanier {
   width: 40%;
+  height: 440px;
 }
 
 .right_contanier {
@@ -24,6 +25,7 @@
   height: 440px;
   background-color: #00a5e2;
   padding: 20px;
+  
 }
 .left_column {
   width: 50%;
