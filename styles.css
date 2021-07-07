@@ -1,0 +1,133 @@
+.main_container {
+  width: 60%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left_contanier {
+  width: 40%;
+}
+
+.right_contanier {
+  width: 60%;
+  height: 440px;
+  background-color: #00a5e2;
+  padding: 20px;
+}
+.left_column {
+  width: 50%;
+}
+.right_column {
+  width: 50%;
+}
+.left_column > a,
+.right_column > a {
+  height: -webkit-fill-available;
+  background-color: #fff;
+  margin: 0 10px 10px 0;
+  color: #00a5e2;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Roboto";
+  padding: 10px;
+}
+.left_column > a:hover,
+.right_column > a:hover {
+  background-color: #00a5e2;
+
+  color: #fff;
+}
+.left_column > a:last-child,
+.right_column > a:last-child {
+  margin-bottom: 0;
+}
+
+.cat_button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pc_btn {
+  background-color: #00a5e2;
+  border: #00a5e2;
+  border-radius: 10px;
+  padding: 10px 20px;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.pc_flex {
+  display: flex;
+  flex-direction: row;
+}
+.pc_flex > div {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.pc_flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: rgba(160, 160, 160, 0.5);
+  width: 100%;
+
+  height: 100%;
+  z-index: 2;
+
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.popup .close-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 0%;
+  top: -10%;
+
+  height: 30px;
+
+  color: #fff;
+  font-size: 35px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.popup.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#text_description_header {
+  color: white;
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-top: 0px;
+}
+#text_description_paragraph {
+  position: absolute;
+  top: 50px;
+  color: white;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+
+
+
+
+
+

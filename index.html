@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+
+    <title>3PC</title>
+  </head>
+  <body>
+    <div class="popup" id="popup_1">
+      <div class="content">
+        <div class="main_container pc_flex">
+          <div class="close-btn" onclick="togglePopup()">×</div>
+          <div class="left_contanier">
+            <div class="left_column pc_flex_column">
+              <a href="#" class="mouse_out" id="icon_1"> Karrierewege</a>
+              <a href="#" class="mouse_out" id="icon_2"> Habilitation</a>
+              <a href="#" class="mouse_out" id="icon_3"> Berufungs-verfahren</a>
+              <a href="#" class="mouse_out" id="icon_4"> Familie, <br> Partnerschaft, <br>  Alltag </a>
+              <a href="#" class="mouse_out" id="icon_5"> Blick aus dem Ausland</a>
+            </div>
+
+            <div class="right_column pc_flex_column">
+              <a href="#" class="mouse_out" id="icon_6"> Promotion</a>
+              <a href="#" class="mouse_out" id="icon_7">Juniorprofessur </a>
+              <a href="#" class="mouse_out" id="icon_8"> Arbeitsplatz</a>
+              <a href="#" class="mouse_out" id="icon_9"> Mobilität</a>
+              <a href="#" class="mouse_out" id="icon_10"> Allgemein</a>
+            </div>
+          </div>
+          <div class="right_contanier" id="text_description">
+            <h2 id="text_description_header"></h2>
+
+            <p id="text_description_paragraph"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cat_button">
+      <button onclick="togglePopup()" class="pc_btn">Alle Kategorien</button>
+    </div>
+  </body>
+</html>
