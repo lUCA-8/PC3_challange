@@ -56,16 +56,9 @@ document.getElementById("icon_10").addEventListener("mouseover", function () {
 
 //Mouse Out:
 
-document.getElementById("icon_1").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_2").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_3").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_4").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_5").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_6").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_7").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_8").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_9").addEventListener("mouseout", mouseOut);
-document.getElementById("icon_10").addEventListener("mouseout", mouseOut);
+for(i=1; i< 11; i++) {
+  document.getElementById("icon_" + i).addEventListener("mouseout", mouseOut);
+ };
 
 function mouseOut() {
   document.getElementById("text_description_header").innerHTML = "";
